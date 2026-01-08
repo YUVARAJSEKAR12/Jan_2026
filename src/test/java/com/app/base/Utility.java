@@ -81,4 +81,40 @@ public class Utility {
 	public String getText1(By locator) {
 		return getElement(locator).getText();
 	}
+
+	// changes done by other user
+	public String getText2(By locator) {
+		return getElement(locator).getText();
+	}
+
+	// changes done by other user
+	public String getText3(By locator) {
+		return getElement(locator).getText();
+	}
+
+	// **** 7. Send Keys ****
+	public void type1(WebElement locator, String text) {
+		
+		locator.clear();
+		locator.sendKeys(text);
+	}
+
+	// **** 2. Open URL ****
+			public void openUrl1(String url) {
+				driver.get(url);
+				String pagenumber="";
+				driver.navigate().to("https://www.flipkart.com/"
+						+ "search?q=realme+5g+mobile&otracker=search&otracker1=search"
+						+ "&marketplace=FLIPKART&as-show=on&as=off&as-pos=1&as-type=HISTORY&page="+pagenumber+"");
+			}
+			
+			// **** 2. Open URL ****
+			public void openUrl2(String url) {
+				driver.get(url);
+				String pagenumber="";
+				driver.navigate().to("https://www.flipkart.com/"
+						+ "search?q=realme+5g+mobile&otracker=search&otracker1=search"
+						+ "&marketplace=FLIPKART&as-show=on&as=off&as-pos=1&as-type=HISTORY&page="+pagenumber+"");
+			}
+
 }
