@@ -81,4 +81,9 @@ public class Utility {
 	public String getText1(By locator) {
 		return getElement(locator).getText();
 	}
+
+	// changes done by other user
+	public String getText2(By locator) {
+		return getElement(locator).getText();
+	}
 }
