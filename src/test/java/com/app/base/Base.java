@@ -608,5 +608,9 @@ public class Base {
 	public static WebDriver launchChrome(ChromeOptions options) {
 		return new ChromeDriver(options);
 	}
+	// 7. Launch Browser with Selected Options
+	public static WebDriver launchChrome1(ChromeOptions options) {
+		return new ChromeDriver(options);
+	}
 
 }
