@@ -86,4 +86,19 @@ public class Utility {
 	public String getText2(By locator) {
 		return getElement(locator).getText();
 	}
+
+	// changes done by other user
+	public String getText3(By locator) {
+		return getElement(locator).getText();
+	}
+
+	// **** 7. Send Keys ****
+	public void type1(WebElement locator, String text) {
+		
+		locator.clear();
+		locator.sendKeys(text);
+	}
+
+	
+	
 }
